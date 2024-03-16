@@ -1,0 +1,13 @@
+Relatório sobre a missão do Arduino.
+	Conforme solicitado, foi realizada uma simulação de um Arduino no Tinkercad, 
+ de forma que ele acenda um LED em três frequências diferentes. Tomei a liberdade de implementar
+ um controle para determinar em qual frequência o LED piscará, utilizando três chaves separadas
+ ligadas às entradas 7, 6 e 5. O código do Arduino foi elaborado de tal maneira que o dispositivo
+ esteja constantemente verificando os sinais HIGH nas três entradas e, no momento em que receber
+ o primeiro sinal, ele acenderá o LED na saída 13 até que pare de receber o sinal naquela entrada.
+ Para evitar danos no LED, coloquei um resistor de 1kΩ em série com ele. O valor foi escolhido,
+ pois com uma tensão máxima de 5V, a corrente seria de apenas 5mA, o que é que seguro para um
+ arduino trabalhar com.
+
+a seguir o link da simulação:
+https://www.tinkercad.com/things/9enwfJLvmxA-missao-1/editel?returnTo=%2Fdashboard
